@@ -1,4 +1,6 @@
-﻿namespace Echauffement;
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Echauffement;
 
 class Program
 {
@@ -11,7 +13,10 @@ class Program
         // Etape 1 : présentez-vous en écrivant votre prénom et votre jeu préféré
         Console.WriteLine("Je m'appelle Owen et mon jeu préféré est League of Legends");
         // Etape 2 : demandez à l'utilisateur son prénom et son âge
-        
+        Console.WriteLine("Quel est ton prénom ?");
+        string city = Console.ReadLine();
+        Console.WriteLine("Quel est ton âge ?");
+        string age = Console.ReadLine();
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
         
         // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)
