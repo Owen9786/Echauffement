@@ -14,11 +14,11 @@ class Program
         Console.WriteLine("Je m'appelle Owen et mon jeu préféré est League of Legends");
         // Etape 2 : demandez à l'utilisateur son prénom et son âge
         Console.WriteLine("Quel est ton prénom ?");
-        string city = Console.ReadLine();
+        string playName = Console.ReadLine();
         Console.WriteLine("Quel est ton âge ?");
-        string age = Console.ReadLine();
+        int age = Convert.ToInt32(Console.ReadLine());
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
-        
+        if (age < 18) Console.WriteLine("tu es mineur"); else Console.WriteLine("tu es majeur");
         // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)
         
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prix
