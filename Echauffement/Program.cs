@@ -30,7 +30,7 @@ class Program
                         Console.WriteLine("4.Crescendum 300€");
                         int choix = Convert.ToInt32(Console.ReadLine());
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
-                           if (choix=1) Console.WriteLine("Calibrum");
+                           
         // Etape 7a : vérifiez si l'utilisateur a assez d'argent par rapport à la somme qu'il avait rentré à l'étape 4
         
         // Etape 7b : modifiez l'étape 7a pour ajouter un connecteur logique qui vérifie que l'utilisateur est majeur en plus d'avoir assez d'argent
